@@ -1,0 +1,14 @@
+
+The demultiplexer was tested for all possible select combinations.
+
+Test Cases:
+
+| Data | Select | Expected Output |
+|------|--------|----------------|
+| 1 | 00 | 0001 |
+| 1 | 01 | 0010 |
+| 1 | 10 | 0100 |
+| 1 | 11 | 1000 |
+| 0 | Any | 0000 |
+
+The simulation results match the expected behavior.
